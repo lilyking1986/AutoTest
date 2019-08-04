@@ -1,0 +1,38 @@
+[
+  {
+    "description": "this is a file",
+    "request": {
+      "uri": "get/cookies/demo",
+      "method": "get",
+      "cookies": {
+        "login": "true"
+      }
+    },
+    "response": {
+      "text": "cookies ge demo"
+    }
+
+  },
+  {
+    "description": "this is post cookies file",
+    "request": {
+      "uri": "/post/cookies/demo",
+      "method": "post",
+      "cookies": {
+        "login": "true"
+      },
+      "json": {
+        "name": "huhansan",
+        "age": "20"
+      }
+    },
+    "response": {
+      "status": 200,
+      "json": {
+          "huhansan": "succcess",
+          "status": "1"
+      }
+    }
+
+  }
+]

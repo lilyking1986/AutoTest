@@ -1,0 +1,19 @@
+[
+  {
+    "description": "this is head post file",
+    "request":{
+      "uri": "/post/headers/demo",
+      "method": "post",
+      "headers": {
+        "content-type": "application/json"
+      },
+      "json": {
+        "name": "wanglaosi",
+        "sex": "woman"
+      }
+    },
+    "response": {
+      "text": "di yi post headers demo"
+    }
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "description": "get request",
+    "request": {
+      "uri": "/getdemo",
+      "method": "get"
+    },
+    "response": {
+      "text": "di yi ge get demo"
+    }
+  },
+  {
+    "description": "get request",
+    "request": {
+      "uri": "/getwritedemo",
+      "method": "get",
+      "queries": {
+        "name": "huhansan",
+        "age": "18"
+      }
+    },
+    "response": {
+      "text": "hu han san is back!!"
+    }
+  },
+  {
+    "description": "post request",
+    "request": {
+      "uri": "/postdemo",
+      "method": "post"
+    },
+    "response": {
+      "text": "hu han san is back post !!"
+    }
+  },
+  {
+    "description": "post paramater request",
+    "request": {
+      "uri": "/postpademo",
+      "method": "post",
+      "forms": {
+        "name": "huhansan",
+        "age": "19"
+      }
+    },
+    "response": {
+      "text": "hu han san is paramater back post !!"
+    }
+  }
+]

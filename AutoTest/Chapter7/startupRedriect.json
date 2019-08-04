@@ -1,0 +1,25 @@
+[
+  {
+    "description": "chong ding xiang dao bai du",
+    "request": {
+      "uri": "/redirect"
+    },
+    "redirectTo": "http://www.baidu.com"
+  },
+  {
+    "description": "chong ding xiang dao to myself",
+    "request": {
+      "uri": "/redirect/topath"
+    },
+    "redirectTo": "/redirect/new"
+  },
+  {
+    "description": "chong ding xiang dao ",
+    "request": {
+      "uri": "/redirect/new"
+    },
+    "response": {
+      "text": "chong ding xiang cheng gong le"
+    }
+  }
+]
