@@ -1,8 +1,21 @@
 [
   {
+    "description": "this is a back cookies file",
+    "request": {
+      "uri": "/getcookies",
+      "method": "get"
+    },
+    "response": {
+      "cookies": {
+        "login": "true"
+      },
+      "text": "cooies suscesss"
+    }
+  },
+  {
     "description": "this is a file",
     "request": {
-      "uri": "get/cookies/demo",
+      "uri": "/get/cookies/demo",
       "method": "get",
       "cookies": {
         "login": "true"
